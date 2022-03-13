@@ -1,0 +1,3 @@
+curl --request POST --url https://api.sendgrid.com/v3/mail/send --header 'Authorization: Bearer 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' --header 'Content-Type: application/json'  --data '{"personalizations": [{"to": [{"email": "craig.fitzgerald00@gmail.com"}]}],"from": {"email": "craig.fitzgerald00@gmail.com"},"subject": "Test #1","content": [{"type": "text/plain", "value": "Test #1"}]}'
+
+craig.fitzgerald00@gmail.com
